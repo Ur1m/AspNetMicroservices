@@ -9,11 +9,11 @@ namespace Basket.API.Entities
 
         public ShoppingCart()
         {
-
         }
+
         public ShoppingCart(string userName)
         {
-            UserName = UserName;
+            UserName = userName;
         }
 
         public decimal TotalPrice
@@ -21,7 +21,7 @@ namespace Basket.API.Entities
             get
             {
                 decimal totalprice = 0;
-                foreach(var item in Items)
+                foreach (var item in Items)
                 {
                     totalprice += item.Price * item.Quantity;
                 }
