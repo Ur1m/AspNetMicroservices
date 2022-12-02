@@ -17,9 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basket.API", "Services\Bask
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Discount", "Discount", "{EC2DBF50-9D32-4905-9EC3-9773FD99CEAE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscountAPI", "Services\Discount\DiscountAPI\DiscountAPI.csproj", "{28B38A34-CF97-4B2F-A69B-ECB89688A639}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiscountAPI", "Services\Discount\DiscountAPI\DiscountAPI.csproj", "{28B38A34-CF97-4B2F-A69B-ECB89688A639}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Discount.Grpc", "Services\Discount\Discount.Grpc\Discount.Grpc.csproj", "{F0B956A9-4D1C-4898-8BA6-C9F5E99F2866}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Discount.Grpc", "Services\Discount\Discount.Grpc\Discount.Grpc.csproj", "{F0B956A9-4D1C-4898-8BA6-C9F5E99F2866}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
